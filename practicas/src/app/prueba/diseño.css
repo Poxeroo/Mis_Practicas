@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+    display: flex;
+    height: 850px;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 40%;
+    height: 70%;
+    align-items: center;
+
+    -webkit-box-shadow: 6px 7px 14px 14px rgba(158,155,158,1);
+    -moz-box-shadow: 6px 7px 14px 14px rgba(158,155,158,1);
+    box-shadow: 6px 7px 14px 14px rgba(158,155,158,1);
+}
+
+.usuario{
+    padding-left: 20px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.recordar{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    text-align: start;
+}
+
+.lado{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.margin0{
+    margin: 0%;
+    text-align: start;
+
+}
+
+a{
+    text-decoration: none;
+}
